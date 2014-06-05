@@ -1,0 +1,9 @@
+{
+  "name": "libertyjsdotcom",
+  "version": "0.1.0",
+  "description": "The LibertyJS website",
+  "repository": "https://github.com/LibertyJS/libertyjsdotcom.git",
+  "devDependencies": {
+    "assemble": "~0.4.37"
+  }
+}
