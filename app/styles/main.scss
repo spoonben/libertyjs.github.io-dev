@@ -11,7 +11,7 @@ $icon-font-path: "/bower_components/bootstrap-sass-official/vendor/assets/fonts/
 
 /* Space out content a bit */
 body {
-    padding-top: 20px;
+    padding-top: 50px;
     padding-bottom: 20px;
 }
 
@@ -52,11 +52,27 @@ body {
 .jumbotron {
     text-align: center;
     border-bottom: 1px solid #e5e5e5;
+    margin-top: 20px;
+    padding-bottom: 27px;
 }
 
 .jumbotron .btn {
     font-size: 21px;
     padding: 14px 24px;
+}
+
+.home-logo {
+  margin-bottom: 40px;
+  max-width:100%;
+  height:auto;
+}
+.subpage-logo {
+  width: 500px;
+  padding: 18px;
+  max-width: 100%;
+  height: auto;
+  margin: auto;
+  display: block;
 }
 
 /* Supporting marketing content */
