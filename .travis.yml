@@ -8,6 +8,9 @@ after_success:
 - gem install compass
 - grunt build
 - cd dist
+- git init
+- git add --all
+- git commit -am "Travis change"
 deploy:
   provider: openshift
   user: pamela.selle@gmail.com
