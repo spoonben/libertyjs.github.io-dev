@@ -12,6 +12,6 @@ deploy:
   password:
     secure: d/04SdMRJxxatgk+SsLE2GnzbiCKpGxsuhXuMZaREvCguyMW+/AQzlvja7l5v2mi53fO8s3V72MYF2EJT1ibf/lCXWSTmaVzMY01Z3SVlvLlaKFq9OUbrbCQ7HTHKw7uLp5neW4KV3emk+vV1DBmE04zc4sVXv4dBF4/4ANdki0=
   app: libertyjs
-  domain: http://libertyjs-pselle.rhcloud.com
+  domain: libertyjs-pselle.rhcloud.com
   on:
     repo: LibertyJS/libertyjsdotcom
