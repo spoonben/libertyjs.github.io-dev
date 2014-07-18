@@ -3,10 +3,9 @@ node_js:
 - '0.10'
 after_success:
 - npm install -g grunt-cli
+- bower install
 - grunt build
 - cd dist
-- git add -f *
-- git commit -am "Deploying change"
 deploy:
   provider: openshift
   user: pamela.selle@gmail.com
