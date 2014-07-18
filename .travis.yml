@@ -6,6 +6,7 @@ after_success:
 - ls -a
 - npm install -g bower
 - bower install
+- gem install compass
 - grunt build
 - cd dist
 deploy:
