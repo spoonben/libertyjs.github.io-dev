@@ -1,3 +1,9 @@
 language: node_js
 node_js:
   - "0.10"
+secure: "epWgikCqL7T/NsKyJ9YLEO1ufCj9+r1CeaOfbxZHobqTOu959Dd2sRRfRV47cchynLSzsHAXvJ3SBj37dqNFXCthpIpM+VmECr9FEQZKs8sn/agUF1lbHjmTDiDCEE9yAnReuvrkRLk8LH1QH+vSPwNRODhIKax5zzveqwWYJKU="
+after_success:
+  - grunt build
+  - cd dist
+  - git remote add deploy secure
+  - git push deploy master
