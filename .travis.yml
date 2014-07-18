@@ -4,6 +4,7 @@ node_js:
 after_success:
 - npm install -g grunt-cli
 - ls -a
+- npm install -g bower
 - bower install
 - grunt build
 - cd dist
