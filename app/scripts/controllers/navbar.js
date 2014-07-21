@@ -19,10 +19,6 @@ angular.module('libertyjsdotcomApp')
       {
         'title': 'Tickets',
         'link': '/tickets'
-      },
-      {
-        'title': 'Contact',
-        'link': 'http://www.meetup.com/Philadelphia-JavaScript-Developers/suggestion/'
       }
     ];
 
