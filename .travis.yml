@@ -7,17 +7,13 @@ after_success:
 - bower install
 - gem install compass
 - grunt build
-- cd dist
-- git init
-- git config --global user.email "travis@localhost.localdomain"
-- git config --global user.name "Travis CI"
-- git add --all
-- git commit -am "Travis change"
 deploy:
   provider: openshift
   user: pamela.selle@gmail.com
   password:
     secure: d/04SdMRJxxatgk+SsLE2GnzbiCKpGxsuhXuMZaREvCguyMW+/AQzlvja7l5v2mi53fO8s3V72MYF2EJT1ibf/lCXWSTmaVzMY01Z3SVlvLlaKFq9OUbrbCQ7HTHKw7uLp5neW4KV3emk+vV1DBmE04zc4sVXv4dBF4/4ANdki0=
+  local-dir: dist
+  skip_cleanup: true
   app: libertyjs
   domain: pselle
   on:
