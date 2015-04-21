@@ -1,3 +1,45 @@
-<h2 id="title">Welcome to Ember.js</h2>
+{{#paper-nav-container classNames="ember-app"}}
 
-{{outlet}}
+  {{#paper-sidenav classNames="md-sidenav-left md-whiteframe-z2" flex-layout="column" flex=true}}
+
+    {{#paper-toolbar}}
+      <div class="md-toolbar-tools">
+        <div class="logo">
+          <strong>LibertyJS</strong>
+        </div>
+      </div>
+    {{/paper-toolbar}}
+
+    {{#paper-content}}
+      <nav class="sidenav">
+        <ul>
+          <li>{{#link-to "index"}}Home{{/link-to}}</li>
+          <li>{{#link-to "tickets"}}Tickets{{/link-to}}</li>
+          <li>{{#link-to "callforpapers"}}Call For Papers{{/link-to}}</li>
+          <li>{{#link-to "schedule"}}Schedule{{/link-to}}</li>
+          <li>
+            <a href="http://www.meetup.com/Philadelphia-JavaScript-Developers/suggestion/" target="_blank">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    {{/paper-content}}
+  {{/paper-sidenav}}
+
+  {{#paper-content flex-layout="column" flex=true}}
+    {{outlet}}
+    {{#paper-card}}
+      {{#paper-card-content}}
+        <p>
+          ♥ from PhilaJSDev
+          <a href="http://www.meetup.com/Philadelphia-JavaScript-Developers/" target="_blank">
+            Meetup
+          </a> |
+          <a href="https://twitter.com/phillyjsdev/" target="_blank">
+            Twitter
+          </a>
+        </p>
+      {{/paper-card-content}}
+    {{/paper-card}}
+  {{/paper-content}}
+
+{{/paper-nav-container}}
