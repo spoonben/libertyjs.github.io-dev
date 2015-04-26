@@ -1,11 +1,17 @@
 {{#paper-toolbar}}
-  <div class="md-toolbar-tools">
-    Home
-  </div>
+  <h2 class="md-toolbar-tools">
+    {{#paper-sidenav-toggle class="menu-sidenav-toggle"}}
+      {{paper-icon icon="menu"}}
+    {{/paper-sidenav-toggle}}
+    <span>Home</span>
+  </h2>
 {{/paper-toolbar}}
 
 {{#paper-card}}
-  <img src="https://material.angularjs.org/img/washedout.png" alt="Washed Out">
+  <img
+    class="title-image"
+    src="/assets/images/logo-full.png"
+    alt="LibertyJS Logo">
   {{#paper-card-content}}
     <h2>LibertyJS</h2>
     <p>
@@ -13,7 +19,7 @@
     </p>
 
     <p>
-      Saturday, July 26th, 2014 at
+      Saturday, June 20th, 2015 at
       <a href="https://twitter.com/phillyjsdev" target="_blank">@phillyjsdev</a>
     </p>
     <a href="http://philadelphia.impacthub.net/" target="_blank">Impact Hub Philadelphia</a>

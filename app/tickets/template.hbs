@@ -1,13 +1,14 @@
 {{#paper-toolbar}}
-  <div class="md-toolbar-tools">
-    Tickets
-  </div>
+  <h2 class="md-toolbar-tools">
+    {{#paper-sidenav-toggle class="menu-sidenav-toggle"}}
+      {{paper-icon icon="menu"}}
+    {{/paper-sidenav-toggle}}
+    <span>Tickets</span>
+  </h2>
 {{/paper-toolbar}}
 
 {{#paper-card}}
-  <img src="https://material.angularjs.org/img/washedout.png" alt="Washed Out">
   {{#paper-card-content}}
-    <h2>Tickets</h2>
     <p>
       Tickets are not availiable yet.  We will keep you posted on Twitter:
       <a href="https://twitter.com/phillyjsdev" target="_blank">@phillyjsdev</a>

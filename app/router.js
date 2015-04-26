@@ -8,5 +8,8 @@ var Router = Ember.Router.extend({
 export default Router.map(function() {
   this.route('schedule');
   this.route('tickets');
-  this.route('callforpapers');
+  this.route('callforproposals');
+  this.route('sponsorship');
+  this.route('sponsors');
+  this.route('codeofconduct');
 });
