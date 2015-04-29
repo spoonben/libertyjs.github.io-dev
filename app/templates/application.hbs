@@ -29,20 +29,22 @@
   {{/paper-sidenav}}
 
   {{#paper-content flex-layout="column" flex=true}}
-    {{outlet}}
-    {{#paper-card}}
-      {{#paper-card-content}}
-        <p>
-          ♥ from PhilaJSDev
-          <a href="http://www.meetup.com/Philadelphia-JavaScript-Developers/" target="_blank">
-            Meetup
-          </a> |
-          <a href="https://twitter.com/phillyjsdev/" target="_blank">
-            Twitter
-          </a>
-        </p>
-      {{/paper-card-content}}
-    {{/paper-card}}
+    <div class="doc-content">
+      {{outlet}}
+      {{#paper-card}}
+        {{#paper-card-content}}
+          <p>
+            ♥ from PhilaJSDev
+            <a href="http://www.meetup.com/Philadelphia-JavaScript-Developers/" target="_blank">
+              Meetup
+            </a> |
+            <a href="https://twitter.com/phillyjsdev/" target="_blank">
+              Twitter
+            </a>
+          </p>
+        {{/paper-card-content}}
+      {{/paper-card}}
+    </div>
   {{/paper-content}}
 
 {{/paper-nav-container}}
