@@ -46,9 +46,9 @@ module.exports = function(environment) {
   ENV.contentSecurityPolicy = {
     'default-src': "'none'",
     'script-src': "'self'",
-    'font-src': "http://fonts.gstatic.com",
+    'font-src': "'self' https://fonts.gstatic.com",
     'connect-src': "'self'",
-    'img-src': "'self'",
+    'img-src': "'self' http://i.creativecommons.org/ http://creativecommons.org/ https://licensebuttons.net/",
     'media-src': "'self'"
   }
 
