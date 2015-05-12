@@ -12,4 +12,5 @@ export default Router.map(function() {
   this.route('sponsorship');
   this.route('sponsors');
   this.route('codeofconduct');
+  this.route('volunteer');
 });
