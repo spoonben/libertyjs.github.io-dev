@@ -41,7 +41,12 @@ Make use of the many generators for code, try `ember help generate` for more det
 
 ### Deploying
 
-Specify what it takes to deploy your app.
+* Fork [LibertyJS Build](https://github.com/LibertyJS/libertyjs.github.io)
+* Pull down repo to your local machine
+* Build this project
+* Copy the `dist` folder into your `USERNAME/libertyjs.github.io` repo
+* Push a commit to your fork
+* Create a pull request against LibertyJS/libertyjs.github.io
 
 ## Further Reading / Useful Links
 
@@ -50,4 +55,3 @@ Specify what it takes to deploy your app.
 * Development Browser Extensions
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
-
