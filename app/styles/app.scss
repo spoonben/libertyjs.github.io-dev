@@ -58,7 +58,7 @@ md-card {
 
 .google-maps {
   position: relative;
-  padding-bottom: 90%; // This is the aspect ratio
+  padding-bottom: 38%; // This is the aspect ratio (Pam updated to shrink map)
   height: 0;
   overflow: hidden;
 }
@@ -67,5 +67,4 @@ md-card {
   top: 0;
   left: 0;
   width: 100% !important;
-  height: 100% !important;
 }
