@@ -5,7 +5,7 @@ var Router = Ember.Router.extend({
   location: config.locationType
 });
 
-export default Router.map(function() {
+Router.map(function() {
   this.route('schedule');
   this.route('tickets');
   this.route('callforproposals');
@@ -13,4 +13,7 @@ export default Router.map(function() {
   this.route('sponsors');
   this.route('codeofconduct');
   this.route('volunteer');
+  this.route('speakers');
 });
+
+export default Router;
