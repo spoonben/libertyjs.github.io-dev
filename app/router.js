@@ -14,7 +14,7 @@ Router.map(function() {
   this.route('codeofconduct');
   this.route('volunteer');
   this.route('speakers');
-  this.route('speakers', { path: '/speakers/:speaker_id' });
+  // this.route('speakers', { path: '/speakers/:speaker_id' });
 });
 
 export default Router;
