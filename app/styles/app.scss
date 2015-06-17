@@ -68,3 +68,8 @@ md-card {
   left: 0;
   width: 100% !important;
 }
+@media (max-width: 540px) {
+  .sponsor img {
+    max-width:100%;
+  }
+}
